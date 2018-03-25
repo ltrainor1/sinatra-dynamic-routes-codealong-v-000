@@ -24,7 +24,6 @@ class App < Sinatra::Base
 
     @output = params[:num1].to_i * params[:num2].to_i
 
-    @output
 
   end
 
